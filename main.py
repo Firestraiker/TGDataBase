@@ -2,7 +2,7 @@ import sqlite3
 import telebot
 from telebot.types import KeyboardButton, ReplyKeyboardMarkup, InlineKeyboardButton         #импорт библиотек
 
-bot  = telebot.TeleBot('7085827976:AAHxA-jNC14IT0aCSDWFMZybLbEBSKmg7cI')        #Токен
+bot  = telebot.TeleBot('TOKEN')        #Свой токен
 
 con = sqlite3.connect('Database.db', check_same_thread=False)           #Подключение к БД
 cursor = con.cursor()
